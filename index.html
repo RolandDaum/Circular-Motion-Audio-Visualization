@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circular Motion Audio Visualization</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/tone"></script>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <div id="div_input">
+        <div id="div_button">
+            <button id="playpause" class="input_button"><img src="img/play.svg"></button>
+            <button id="soundmute" class="input_button"><img src="img/volume_on.svg"></button>
+        </div>
+        <input type="number" placeholder="circles" min="1" max="50" value="10" id="input_circles" class="input_num">
+        <input type="number" placeholder="speed" value="1" min="1" max="10" id="input_speed" class="input_num">
+        <input type="number" placeholder="resolution" value="1000" min="100" max="10000" id="input_resolution" class="input_num">
+    </div>
+</body>
+</html>

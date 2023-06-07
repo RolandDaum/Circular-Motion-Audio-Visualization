@@ -1,0 +1,131 @@
+:root {
+    --bakground: #C4DFDF;
+    --background_blurie: rgba(196, 223, 223, 0.33);
+    --darkbluegreen: #044343;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    /* background-color: var(--bakground); */
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='3840' height='2160' preserveAspectRatio='none' viewBox='0 0 3840 2160'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='3840' height='2160' x='0' y='0' fill='rgba(196%2c 223%2c 223%2c 1)'%3e%3c/rect%3e%3cpath d='M -1177.1477651235537%2c711 C -1049.15%2c911.8 -793.15%2c1651.6 -537.1477651235537%2c1715 C -281.15%2c1778.4 -153.15%2c1001.2 102.85223487644635%2c1028 C 358.85%2c1054.8 486.85%2c1986 742.8522348764463%2c1849 C 998.85%2c1712 1126.85%2c481 1382.8522348764463%2c343 C 1638.85%2c205 1766.85%2c1045.4 2022.8522348764463%2c1159 C 2278.85%2c1272.6 2406.85%2c849.2 2662.8522348764463%2c911 C 2918.85%2c972.8 3067.42%2c1517.8 3302.8522348764463%2c1468 C 3538.28%2c1418.2 3732.57%2c823.2 3840%2c662' stroke='rgba(4%2c 67%2c 67%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -264.27136590768555%2c589 C -136.27%2c707 119.73%2c1190.4 375.72863409231445%2c1179 C 631.73%2c1167.6 759.73%2c436 1015.7286340923145%2c532 C 1271.73%2c628 1399.73%2c1565 1655.7286340923145%2c1659 C 1911.73%2c1753 2039.73%2c1043.2 2295.7286340923147%2c1002 C 2551.73%2c960.8 2679.73%2c1487.4 2935.7286340923147%2c1453 C 3191.73%2c1418.6 3319.73%2c762.6 3575.7286340923147%2c830 C 3831.73%2c897.4 4162.87%2c1786 4215.728634092315%2c1790 C 4268.58%2c1794 3915.15%2c1038 3840%2c850' stroke='rgba(4%2c 67%2c 67%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -291.1409162115143%2c1410 C -163.14%2c1297.6 92.86%2c809 348.8590837884857%2c848 C 604.86%2c887 732.86%2c1643.8 988.8590837884857%2c1605 C 1244.86%2c1566.2 1372.86%2c685.4 1628.8590837884858%2c654 C 1884.86%2c622.6 2012.86%2c1485.2 2268.859083788486%2c1448 C 2524.86%2c1410.8 2652.86%2c495.2 2908.859083788486%2c468 C 3164.86%2c440.8 3292.86%2c1230.8 3548.859083788486%2c1312 C 3804.86%2c1393.2 4130.63%2c901.6 4188.859083788486%2c874 C 4247.09%2c846.4 3909.77%2c1114 3840%2c1174' stroke='rgba(4%2c 67%2c 67%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -1265.196333059213%2c1582 C -1137.2%2c1368.6 -881.2%2c598.8 -625.196333059213%2c515 C -369.2%2c431.2 -241.2%2c1112.2 14.803666940787025%2c1163 C 270.8%2c1213.8 398.8%2c725.8 654.803666940787%2c769 C 910.8%2c812.2 1038.8%2c1347 1294.803666940787%2c1379 C 1550.8%2c1411 1678.8%2c976.8 1934.803666940787%2c929 C 2190.8%2c881.2 2318.8%2c1248.6 2574.803666940787%2c1140 C 2830.8%2c1031.4 2961.76%2c263.4 3214.803666940787%2c386 C 3467.84%2c508.6 3714.96%2c1479.6 3840%2c1753' stroke='rgba(4%2c 67%2c 67%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -1152.488445492761%2c1549 C -1024.49%2c1334.8 -768.49%2c551.6 -512.488445492761%2c478 C -256.49%2c404.4 -128.49%2c1189.8 127.511554507239%2c1181 C 383.51%2c1172.2 511.51%2c349.8 767.511554507239%2c434 C 1023.51%2c518.2 1151.51%2c1496.2 1407.511554507239%2c1602 C 1663.51%2c1707.8 1791.51%2c909.4 2047.511554507239%2c963 C 2303.51%2c1016.6 2431.51%2c1982.6 2687.511554507239%2c1870 C 2943.51%2c1757.4 3097.01%2c416 3327.511554507239%2c400 C 3558.01%2c384 3737.5%2c1512 3840%2c1790' stroke='rgba(4%2c 67%2c 67%2c 1)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='3840' height='2160' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-size: cover;
+}
+
+canvas {
+    height: 95vh;
+    width: 95vh;
+    background-color: var(--background_blurie);
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-25%, -50%);
+    border-radius: 2vw;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    padding: 0.5vw;
+    box-sizing: border-box;
+}
+
+
+
+
+
+#div_input {
+    position: absolute;
+    right: 3%;
+    top: 50%;
+    transform: translate(-3%, -50%);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--background_blurie);
+    padding: 0 1vw 0 1vw;
+    color: var(--darkbluegreen);
+    border-radius: 1vw;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.input_num {
+    appearance: none;
+    margin: 1vw;
+    border-radius: 0.5vw;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    height: 2vw;
+    width: 7vw;
+    background-color: var(--background_blurie);
+    border: var(--darkbluegreen) 0.05vw solid;
+    padding: 0 1vw 0 1vw;
+    color: var(--darkbluegreen);
+}
+.input_num::placeholder {
+    color: var(--darkbluegreen);
+}
+.input_num:focus {
+    outline: none;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+.input_num:focus::placeholder {
+    color: transparent;
+}
+
+
+#div_button {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    width: 7vw;
+}
+.input_button {
+    appearance: none;
+    height: 2.5vw;
+    width: 2.5vw;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vw;
+    background-color: var(--background_blurie);
+    border: var(--darkbluegreen) 0.05vw solid;
+    padding: 0 1vw 0 1vw;
+    color: var(--darkbluegreen);
+    border-radius: 0.5vw;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    cursor: pointer;
+}
+.input_button:active {
+    animation: click 0.1s ease-out;
+}
+@keyframes click {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translate(0.025vw, 0.05vw);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
